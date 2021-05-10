@@ -1,52 +1,154 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 style="text-align: center">Justice League: The Watchtower</h1>
 
-Welcome USER_NAME,
+[comment]: <> (Hero Image)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This is my submission for Milestone project 2. The watchtower site is a fun interactive site based in the DC universe. It provides
+information on characters from the comic book franchise, using HTML5, CSS3 and JS to pull through data 
+based on the actions of the user.
 
-## Gitpod Reminders
+[View live project here]
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<h3 style="text-align: center">User Experience (UX)</h3>
 
-`python3 -m http.server`
+* User Story 1<br>
+As a customer, I can see what the site is for and the purpose of the site when I land on the page.
 
-A blue button should appear to click: _Make Public_,
+* User Story 2<br>
+As a customer the navigation around the site is clearly displayed.
 
-Another blue button should appear to click: _Open Browser_.
+* User Story 3<br>
+As a customer, I can clearly see the CTA to interact with 'Find the Heros' functionality.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* User Story 4<br>
+As a customer, when I click on a superhero icon, I can see that heros location on the map and
+details about the hero.
 
-A blue button should appear to click: _Make Public_,
+* User Story 5<br>
+As an admin, it is clear that the site is for fun and is easy to navigate and interactive.
 
-Another blue button should appear to click: _Open Browser_.
+* User Story 6<br>
+As a customer when I click on a 'Select a new hero' button, i'm directed back to the original list
+of heros.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* User Story 7<br>
+As a customer, I can see a clear CTA to interact the 'Find Recruits' functionality.
 
-To log into the Heroku toolbelt CLI you can use:
+* User Story 8<br>
+s a customer, when i click on one of the presented region, I am presented with a recruit location
+and information on that recruit.
 
-`heroku login -i`
+* User Story 9<br>
+As a customer when i click on a 'Select a new city' button, i'm taken back to the original list of cities.
 
-If you have Multi-Factor Authentication (MFA) enabled then use the API key that was generated for you at [Heroku](https://dashboard.heroku.com/account) as your password.
-This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+* User Story 10<br>
+As a customer, I can see a clear CTA to interact the 'Find Villains' functionality
 
-## Updates Since The Instructional Video
+* User Story 11<br>
+As a customer, when i click on one of the map locator icons, I am presented with a 'crime' location
+and information on that crime such as the villain behind it.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<h3>Design</h3>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* Colour scheme - 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* Typography - 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* Imagery - 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* WireFrames:
+Desktop and Mobile wireframes - https://marvelapp.com/prototype/9ihcaij
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* Features:
+Responsive layout on mobile and tablet
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<h3>Technologies:</h3>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* Languages - 
+HTML5
+CSS3
+JS
 
----
+* Frameworks/libraries/programs - 
+  https://favicon.io/favicon-converter/ - Used to create logo for title.
 
-Happy coding!
+  https://www.rawpixel.com/image/2337562/free-illustration-png-frame-black-texture - Used for background image.
+
+  https://fonts.google.com/ - used for font design.
+
+  Bootstrap 4.3.1 - https://getbootstrap.com/docs/4.3/getting-started/introduction/ - used to help with responsiveness
+  of the site as the JS query for the hover inmation on the nav bar.
+
+  Free formatter - https://www.freeformatter.com/css-beautifier.html used to beautify CSS3 code
+
+<h1 style="text-align: center">Testing</h1>
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the project pages to ensure there were no syntax errors.
+
+* [W3C Markup validator](https://validator.w3.org/#validate_by_input)
+
+
+* [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator)
+
+
+<h3>Testing user stories</h3>
+
+
+<h3>Further testing:</h3>
+     
+
+* Bugs<br>
+     
+
+* Changes from design: <br>
+
+
+* Potential enhancements:<br>
+
+
+<h1 style="text-align: center">Deployment</h1>
+
+<h3>GitHub Pages</h3>
+The project was deployed to GitHub Pages using the following steps...
+
+<h4>Log in to GitHub and locate the GitHub Repository</h4>
+
+* At the top of the repository section, locate the "Settings" Button on the menu.
+* Scroll down the settings page until you find the "GitHub Pages" section.
+* Under "Source", click the dropdown and select "Master Branch".The page will refresh.
+* Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+<h3>Forking the GitHub Repository</h3>
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+<h4>Log in to GitHub and locate the GitHub Repository<h4>
+
+* At the top of the repository section just above the "Settings" button on the menu, click the "Fork" button.
+  The original repository in your GitHub account should now have duplicated.
+
+<h4>Making a Local Clone</h4>
+
+* Log in to GitHub and locate the GitHub repository, under the repository name, click "clone or download".
+* To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+* Open Git Bash
+* Change the current working directory to the location where you want the cloned directory to be made.
+* Type git clone, and then paste the URL you copied in Step 2.
+   * $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+* Press Enter. Your local clone will be created.
+   * $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+
+<h1 style="text-align: center">Credits</h1>
+
+<h3>Code</h3>
+Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+<h3>Content</h3>
+
+
+<h3>Media</h3>
+
+<h3>Acknowledgements</h3>
