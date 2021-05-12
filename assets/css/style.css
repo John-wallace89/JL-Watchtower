@@ -5,7 +5,7 @@
     background-image: url(../images/earth_image.jpg);
     background-repeat: no-repeat;
     min-width: 100%;
-    height: 600px;
+    height: 800px;
     padding: 0;
     margin: 0;
 }
@@ -180,7 +180,7 @@
 /*------------------------------------------Navigation------------------*/
 
 nav {
-    padding-top: 20rem;
+    padding-top: 25rem;
 }
 
 ul {
@@ -228,4 +228,17 @@ ul {
 /*------------------------------------------Scrolling------------------*/
 .section {
   padding: 150px 0;
+}
+
+/*----------------------------------------back to top button------------*/
+
+#btn-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  color: #fafafa;
+  background-color: #093146;
+  border-color: #fafafa;
+
 }

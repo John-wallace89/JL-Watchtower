@@ -23,14 +23,6 @@
     <meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="assets/js/scroll.js"></script>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
@@ -42,13 +34,14 @@
 </head>
 
 <body style="background-color: #093146;">
-    <header class="page-header">
+    <header class="page-header" id="top">
         <!------------------------------------------------------------------ Page Title-->
-        <div class="container-fluid bg-color-header header-block" id="top">
+        <div class="container-fluid bg-color-header header-block">
             <a href="index.html" style="text-decoration: none; width: min-content;">
-                <h1 class="page-title" id="title">watchtower</h1>
+                <h1 class="page-title" id="title">the watchtower</h1>
             </a>
             <h2 class="page-subtitle">justice league hq</h2>
+            <!----------------------------------------------Nav----------------------------------- -->
             <nav>
                 <div class="row no-gutters">
                     <div class="col">
@@ -85,9 +78,11 @@
                 </div>
             </div>
         </div>
-        <!-------------------------------------------------------------------------Nav -->
-
     </header>
+    <!--------------------------------------------Back-to top button--------------->
+        <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-to-top">
+            <a href="#top"></a><i class="fas fa-chevron-up"></i></a>
+        </button>
     <!----------------------------Find our heros -->
     <section class="section" id="find-our-heros">
         <div class="container">
@@ -112,6 +107,14 @@
 
     </section>
     <footer></footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/scroll.js"></script>
     <!---------------------------------------Scripts ---->
 
 </body>
