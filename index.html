@@ -22,18 +22,19 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <!--CDN link for Bootstrap/JQuery -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
+    <script src="assets/js/scroll.js"></script>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Justice League: The Watchtower</title>
@@ -41,23 +42,78 @@
 </head>
 
 <body style="background-color: #093146;">
-    <header>
+    <header class="page-header">
         <!------------------------------------------------------------------ Page Title-->
-        <div class="container-fluid  bg-color-header header-block">
-                <a href="index.html" style="text-decoration: none; width: min-content;">
-                    <h1 class="page-title">watchtower</h1>
-                </a>
-                <h2 class="page-subtitle">justice league hq</h2>
+        <div class="container-fluid bg-color-header header-block" id="top">
+            <a href="index.html" style="text-decoration: none; width: min-content;">
+                <h1 class="page-title" id="title">watchtower</h1>
+            </a>
+            <h2 class="page-subtitle">justice league hq</h2>
+            <nav>
+                <div class="row no-gutters">
+                    <div class="col">
+                        <ul id="nav" class="list-inline menucontainer">
+                            <li class="col-6 col-sm-3 list-inline-item menuitem"><a href="#find-the-heros"><span>Find
+                                        our Heros</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 list-inline-item menuitem"><a href="#find-new-recruits"><span>Find
+                                        new
+                                        Recruits</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 list-inline-item menuitem"><a href="#find-the-villains"><span>Find
+                                        the
+                                        Villains</span></a>
+                            </li>
+                            <li class="col-6 col-sm-3 list-inline-item menuitem"><a href="#contact-us"><span>Contact
+                                        Us</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
         <!-----------------------------------------------------------------Introduction -->
-
+        <div class="container">
+            <div class="row intro">
+                <div class="col">
+                    <h3 class="intro-title">welcome to the watchtower</h3>
+                    <p class="content">Here in Earth's orbit, the watchtower has been home to the earth's mightiest
+                        heros since their creation. Here we can watch over our heros, look for new recuits and monitor
+                        potential threats.
+                        Start to explore, and see life through the eyes of the Justice League<span>&#169;</span>.
+                    </p>
+                </div>
+            </div>
+        </div>
         <!-------------------------------------------------------------------------Nav -->
+
     </header>
-    <!--Find our heros -->
+    <!----------------------------Find our heros -->
+    <section class="section" id="find-our-heros">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
     <!--Find New Recruits -->
+    <section class="section" id="find-new-recruits">
+
+    </section>
     <!--Find the villains -->
+    <section class="section" id="find-the-villains">
+
+    </section>
     <!--Contact Us-->
+    <section class="section" id="contact-us">
+
+    </section>
+    <footer></footer>
+    <!---------------------------------------Scripts ---->
+
 </body>
-<footer></footer>
 
 </html>
