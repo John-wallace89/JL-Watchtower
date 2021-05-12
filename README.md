@@ -71,7 +71,7 @@ JS
 * Frameworks/libraries/programs - 
   https://favicon.io/favicon-converter/ - Used to create logo for title.
 
-  https://www.rawpixel.com/image/2337562/free-illustration-png-frame-black-texture - Used for background image.
+  https://www.rawpixel.com - Used for background image.
 
   https://fonts.google.com/ - used for font design.
 
@@ -79,6 +79,8 @@ JS
   of the site as the JS query for the hover inmation on the nav bar.
 
   Free formatter - https://www.freeformatter.com/css-beautifier.html used to beautify CSS3 code
+
+  https://blog.hubspot.com/website/css-fade-in for Fade in animation.
 
 <h1 style="text-align: center">Testing</h1>
 
