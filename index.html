@@ -34,7 +34,7 @@
 </head>
 
 <body style="background-color: #093146;">
-    <header class="page-header" id="top">
+    <header class="page-header">
         <!----------------------------------------------- Page Title------->
         <div class="container-fluid bg-color-header header-block">
             <div class="row" style="position: relative;">
@@ -73,11 +73,11 @@
             </nav>
         </div>
         <!-----------------------------------------------------------------Introduction -->
-        <div class="container">
-            <div class="row">
+        <div class="container-fluid">
+            <div class="row intro-block">
                 <div class="col">
                     <h3 class="intro-title">welcome to the watchtower</h3>
-                    <p class="content">Here in Earth's orbit, the watchtower has been home to the earth's mightiest
+                    <p class="intro-content">Here in Earth's orbit, the watchtower has been home to the earth's mightiest
                         heros since their creation. Here we can watch over our heros, look for new recuits and monitor
                         potential threats.
                         Start to explore, and see life through the eyes of the Justice League<span>&#169;</span>.
@@ -86,20 +86,57 @@
             </div>
         </div>
     </header>
-    <!--------------------------------------------Back-to top button--------------->
-    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-to-top">
-        <a href="#top"></a><i class="fas fa-chevron-up"></i></a>
-    </button>
     <!----------------------------Find our heros -->
     <section class="section" id="find-our-heros">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col">
-
+                    <h3 class="title">find our heros</h3>
+                    <p class="content">the Justice League<span>&#169;</span> Include some of the mightiest heros to
+                        defend the earth. Click on each tile below to find out more about them and their whereabouts.
+                    </p>
                 </div>
             </div>
         </div>
-
+        <div class="card-deck">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
     </section>
     <!--Find New Recruits -->
     <section class="section" id="find-new-recruits">
@@ -113,7 +150,12 @@
     <section class="section" id="contact-us">
 
     </section>
+    <!--------------------------------------------Back-to top button--------------->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-to-top">
+        <a href="#top"></a><i class="fas fa-chevron-up"></i></a>
+    </button>
     <footer></footer>
+    <!---------------------------------------Scripts --------------------------->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
@@ -122,7 +164,7 @@
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/js/scroll.js"></script>
-    <!---------------------------------------Scripts ---->
+
 
 </body>
 

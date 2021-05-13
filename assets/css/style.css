@@ -17,61 +17,13 @@
     background-image: url(../images/earth_image.jpg);
     background-repeat: no-repeat;
     min-width: 100%;
-    height: 800px;
+    height: 600px;
     padding: 0;
     margin: 0;
 }
 
-/*------------------------------------------Navigation------------------*/
-
-nav {
-    padding-top: 15rem;
-}
-
-ul {
-    margin-bottom: 0;
-}
-
-.list-inline-item:not(:last-child) {
-	margin: 0;
-}
-
-.menucontainer {
-	font-size: 0;
-}
-
-#nav {
-    width: 100%;
-}
-
-#nav li {
-	font-family: "Teko", sans-serif;
-	font-size: 30px;
-	font-weight: 400;
-	text-transform: uppercase;
-}
-
-.menuitem {
-	text-align: center;
-	padding: 0;
-}
-
-.menuitem a {
-	width: 100%;
-	text-decoration: none;
-	color: #fafafa;
-	height: 100px;
-	padding-top: 20px;
-}
-
-.menuitem a:hover {
-	color: orange;
-}
-
-.menuitem span {
-	display: block;
-	width: 100%;
-	letter-spacing: 2px;
+.intro-block {
+    background-color: #fafafa;
 }
 
 /*------------------------------------------Text formatting------------------*/
@@ -85,7 +37,6 @@ ul {
     text-align: center;
     width: 100%;
     letter-spacing: 2px;
-    padding-top: 3rem;
     margin: 0;
     animation: fadeIn linear 5s;
     -webkit-animation: fadeIn linear 5s;
@@ -212,13 +163,34 @@ ul {
 
 .intro-title {
     font-family: "Teko", sans-serif;
+    color: #093146;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    padding-top: 4rem;
+}
+
+.intro-content {
+    font-family: "Teko", sans-serif;
+    color: #093146;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+.title {
+    font-family: "Teko", sans-serif;
     color: #fafafa;
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
     width: 100%;
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 .content {
@@ -230,7 +202,57 @@ ul {
     text-align: center;
     width: 100%;
 }
+/*------------------------------------------Navigation------------------*/
 
+nav {
+    padding-top: 10rem;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+.list-inline-item:not(:last-child) {
+	margin: 0;
+}
+
+.menucontainer {
+	font-size: 0;
+}
+
+#nav {
+    width: 100%;
+}
+
+#nav li {
+	font-family: "Teko", sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.menuitem {
+	text-align: center;
+	padding: 0;
+}
+
+.menuitem a {
+	width: 100%;
+	text-decoration: none;
+	color: #fafafa;
+	height: 100px;
+	padding-top: 20px;
+}
+
+.menuitem a:hover {
+	color: orange;
+}
+
+.menuitem span {
+	display: block;
+	width: 100%;
+	letter-spacing: 2px;
+}
 
 /*------------------------------------------Scrolling------------------*/
 .section {
@@ -248,4 +270,17 @@ ul {
   background-color: #093146;
   border-color: #fafafa;
 
+}
+
+/*----------------------------------------Card format------------*/
+
+.card-deck {
+    margin: 0;
+}
+
+.card {
+    margin: 5px;
+    padding: 3rem;
+    max-width: 400px;
+    max-height: 300px;
 }
