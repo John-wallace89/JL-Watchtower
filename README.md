@@ -152,5 +152,8 @@ Bootstrap4: Bootstrap Library used throughout the project mainly to make site re
 
 
 <h3>Media</h3>
+<h4>Image credits</h4>
+* Batman photo credit - Photo by <a href="https://unsplash.com/@lusik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcin Lukasik</a> on <a href="https://unsplash.com/s/photos/batman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+* Frozen City credit - Photo by <a href="https://unsplash.com/@amseaman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew Seaman</a> on <a href="https://unsplash.com/s/photos/frozen-city?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 <h3>Acknowledgements</h3>

@@ -272,15 +272,69 @@ ul {
 
 }
 
-/*----------------------------------------Card format------------*/
+/*----------------------------------------Card flip heros------------*/
 
-.card-deck {
-    margin: 0;
+.card-block .btn-outline-primary {
+  width: 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
 }
 
 .card {
-    margin: 5px;
-    padding: 3rem;
-    max-width: 400px;
-    max-height: 300px;
+  margin: 20px 0;
+  cursor: pointer;
+  width: 300px;
+  height: 400px;
+}
+
+.card-container {
+  perspective: 1000px;
+}
+.card-flip {
+  position: relative;
+  width: 100%;
+  transform-style: preserve-3d;
+  height: auto;
+  transition: all 0.8s ease-out;
+  background: white;
+  border: none;
+}
+
+.card-flip div {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+.card-flip .front {
+  position: relative;
+  z-index: 1;
+}
+
+.card-flip .back {
+  position: absolute;
+  z-index: 0;
+  transform: rotateY(-180deg);
+}
+
+/*---------img--------------*/
+img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.front {
+    background-color: grey;
+}
+
+.back {
+    background-color: indigo;
+    color: yellow;
 }
