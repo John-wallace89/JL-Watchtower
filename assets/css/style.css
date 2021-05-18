@@ -335,6 +335,7 @@ img {
 }
 
 .back {
-    background-color: indigo;
+    background-color: black;
     color: yellow;
+    font-family: "Teko", sans-serif;
 }
