@@ -23,6 +23,8 @@
     <meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
@@ -99,6 +101,17 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-lg btn-map" onclick="heroLocation(event)">Find Our Heros</button>
+            </div>
+        </div>
+        <div class="col">
+            <div id="map"></div>
+        </div>
+    </section>
+    <!--Find New Recruits -->
+    <section class="section" id="find-new-recruits">
         <div class="container">
             <div class="row text-center">
                 <div class="col-md-4 card-container">
@@ -238,10 +251,6 @@
             </div>
         </div>
     </section>
-    <!--Find New Recruits -->
-    <section class="section" id="find-new-recruits">
-
-    </section>
     <!--Find the villains -->
     <section class="section" id="find-the-villains">
 
@@ -265,6 +274,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/js/scroll.js"></script>
     <script src="assets/js/heros.js"></script>
+    <script src="assets/js/recruits.js"></script>
 
 
 

@@ -5,14 +5,17 @@
 /*-----Credit for image - https://www.pentagram.com/work/justice-league---*/
 .logo {
     max-height: 200px;
-    max-width: 200px;  
+    max-width: 200px;
 }
+
 /*--------------------------------------------------Background------------------*/
 
 .row {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
+
 .bg-color-header {
     background-image: url(../images/earth_image.jpg);
     background-repeat: no-repeat;
@@ -202,6 +205,7 @@
     text-align: center;
     width: 100%;
 }
+
 /*------------------------------------------Navigation------------------*/
 
 nav {
@@ -213,11 +217,11 @@ ul {
 }
 
 .list-inline-item:not(:last-child) {
-	margin: 0;
+    margin: 0;
 }
 
 .menucontainer {
-	font-size: 0;
+    font-size: 0;
 }
 
 #nav {
@@ -225,101 +229,124 @@ ul {
 }
 
 #nav li {
-	font-family: "Teko", sans-serif;
-	font-size: 30px;
-	font-weight: 400;
-	text-transform: uppercase;
+    font-family: "Teko", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .menuitem {
-	text-align: center;
-	padding: 0;
+    text-align: center;
+    padding: 0;
 }
 
 .menuitem a {
-	width: 100%;
-	text-decoration: none;
-	color: #fafafa;
-	height: 100px;
-	padding-top: 20px;
+    width: 100%;
+    text-decoration: none;
+    color: #fafafa;
+    height: 100px;
+    padding-top: 20px;
 }
 
 .menuitem a:hover {
-	color: orange;
+    color: orange;
 }
 
 .menuitem span {
-	display: block;
-	width: 100%;
-	letter-spacing: 2px;
+    display: block;
+    width: 100%;
+    letter-spacing: 2px;
 }
 
 /*------------------------------------------Scrolling------------------*/
 .section {
-  padding: 150px 0;
+    padding: 150px 0;
 }
 
 /*----------------------------------------back to top button------------*/
 
 #btn-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: none;
-  color: #fafafa;
-  background-color: #093146;
-  border-color: #fafafa;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    color: #fafafa;
+    background-color: #093146;
+    border-color: #fafafa;
+
+}
+
+/*---------Heros map-----------*/
+
+
+.btn-map {
+    margin: 5rem;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    background-color: #fafafa;
+    color: #093146;
+
+}
+
+#map {
+    text-align: center;
+    height: 400px;
+    max-width: 100%;
+    margin-right: 5em;
+    margin-left: 5em;
 
 }
 
 /*----------------------------------------Card flip heros------------*/
 
 .card-block .btn-outline-primary {
-  width: 100%;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  bottom: 0;
-  left: 0;
-  position: absolute;
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
 }
 
 .card {
-  margin: 20px 0;
-  cursor: pointer;
-  width: 300px;
-  height: 400px;
+    margin: 20px 0;
+    cursor: pointer;
+    width: 300px;
+    height: 400px;
 }
 
 .card-container {
-  perspective: 1000px;
+    perspective: 1000px;
 }
+
 .card-flip {
-  position: relative;
-  width: 100%;
-  transform-style: preserve-3d;
-  height: auto;
-  transition: all 0.8s ease-out;
-  background: white;
-  border: none;
+    position: relative;
+    width: 100%;
+    transform-style: preserve-3d;
+    height: auto;
+    transition: all 0.8s ease-out;
+    background: white;
+    border: none;
 }
 
 .card-flip div {
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
-  height: 100%;
-  width: 100%;
-  border: none;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+    border: none;
 }
 
 .card-flip .front {
-  position: relative;
-  z-index: 1;
+    position: relative;
+    z-index: 1;
 }
 
 .card-flip .back {
-  position: absolute;
-  z-index: 0;
-  transform: rotateY(-180deg);
+    position: absolute;
+    z-index: 0;
+    transform: rotateY(-180deg);
 }
 
 /*---------img--------------*/
