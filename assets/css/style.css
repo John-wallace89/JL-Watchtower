@@ -278,6 +278,12 @@ ul {
 
 /*---------Heros map-----------*/
 
+.col-map {
+    background-image: url(../images/digital_background.jpg);
+    width: 100%;
+    text-align: center;
+}
+
 
 .btn-map {
     margin: 5rem;
