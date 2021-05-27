@@ -367,8 +367,23 @@ img {
     background-color: grey;
 }
 
-.back {
+.info-ga {
+    background-color: green;
+    color: #fafafa;
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+}
+
+.info-gl {
+    background-color: black;
+    color: rgb(11, 223, 11);
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+}
+
+.info-bc {
     background-color: black;
     color: yellow;
     font-family: "Teko", sans-serif;
+    font-size: 20px;
 }
