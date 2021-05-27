@@ -107,21 +107,32 @@ map.addLayer({
 });
 });
 
-function heroLocation () {
+let heroButton = document.getElementById('hero-btn');
+heroButton.addEventListener('click', heroLocation);
+
+function heroLocation() {
     let herosArray = ["superman", "batman", "wonder-woman", "aquaman", "flash", "martian-manhunter"];
     for (i = 0; i < herosArray.length, i++;);
     let herosResult = herosArray[i];
 
-    console.log (herosResult);
-
-    if (herosResult === herosArray["superman"]) {
+    console.log(herosResult);
+    
+    if (herosResult === herosArray[0]) {
         document.getElementsByClassName("hero-location").innerHTML = 
         (`<h6>Location: Fortress of Solitude</h6><br>
         <h6>Hero: Superman</h6><br>
         <h6>Co-ordinates: 90.00° N, 135.00° W</h6>`);
+
+    } else if (herosResult === herosArray[1]) {
+
+        document.getElementsByClassName("hero-location").innerHTML = 
+        (`<h6>Location: Gotham City - Ace Chemicals</h6><br>
+        <h6>Hero: Batman</h6><br>
+        <h6>Co-ordinates:40.7128° N, 74.0060° W</h6>`);
+
     } else {
-        console.log("not superman!");
+        console.log("no hero found!");
     }
 }
 
-heroLocation(event);
+heroLocation();
