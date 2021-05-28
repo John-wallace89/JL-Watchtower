@@ -111,26 +111,54 @@ let heroButton = document.getElementById('hero-btn');
 heroButton.addEventListener('click', heroLocation);
 
 function heroLocation() {
-    let herosArray = ["superman", "batman", "wonder-woman", "aquaman", "flash", "martian-manhunter"];
+    let herosArray = ['superman', 'batman', 'wonder-woman', 'aquaman', 'flash', 'martian-manhunter'];
     for (i = 0; i < herosArray.length, i++;);
     let herosResult = herosArray[i];
 
     console.log(herosResult);
     
-    if (herosResult === herosArray[0]) {
-        document.getElementsByClassName("hero-location").innerHTML = 
+    if (herosResult === herosArray['superman']) {
+        document.getElementsByClassName('hero-location').innerHTML = 
         (`<h6>Location: Fortress of Solitude</h6><br>
         <h6>Hero: Superman</h6><br>
         <h6>Co-ordinates: 90.00° N, 135.00° W</h6>`);
 
     } else if (herosResult === herosArray[1]) {
 
-        document.getElementsByClassName("hero-location").innerHTML = 
+        document.getElementsByClassName('hero-location').innerHTML = 
         (`<h6>Location: Gotham City - Ace Chemicals</h6><br>
         <h6>Hero: Batman</h6><br>
         <h6>Co-ordinates:40.7128° N, 74.0060° W</h6>`);
 
-    } else {
+    } else if (herosResult === herosArray[2]) {
+
+        document.getElementsByClassName('hero-location').innerHTML = 
+        (`<h6>Location: Paris</h6><br>
+        <h6>Hero: Wonder Woman</h6><br>
+        <h6>Co-ordinates:48.8566° N, 2.3522° E</h6>`);
+
+     } else if (herosResult === herosArray[3]) {
+
+        document.getElementsByClassName('hero-location').innerHTML = 
+        (`<h6>Location: Mariana Trench</h6><br>
+        <h6>Hero: Aquaman</h6><br>
+        <h6>Co-ordinates: 11.3493° N, 142.1996° E</h6>`);
+
+     } else if (herosResult === herosArray[4]) {
+
+        document.getElementsByClassName('hero-location').innerHTML = 
+        (`<h6>Location: Central City</h6><br>
+        <h6>Hero: The Flash</h6><br>
+        <h6>Co-ordinates: 41.8781° N, 87.6298° W</h6>`);
+
+     } else if (herosResult === herosArray[5]) {
+
+        document.getElementsByClassName('hero-location').innerHTML = 
+        (`<h6>Location: Unknown</h6><br>
+        <h6>Hero: Martian Manhunter</h6><br>
+        <h6>Not on Earth, <a href="scanner.html">click here</a> to activate long range scanners.</h6>`);
+
+     } else {
         console.log("no hero found!");
     }
 }
