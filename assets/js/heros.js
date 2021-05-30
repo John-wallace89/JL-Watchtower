@@ -3,8 +3,8 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoiam9obi13YWxsYWNlODkiLCJhIjoiY2tvdHNuaDNpMGVme
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/john-wallace89/ckoxcyrn00j2w17mqtb9xelyf',
-    center: [-74.5, 40],
-    zoom: 1, // starting zoom
+    center: [0, 0],
+    zoom: 1.5, // starting zoom
 });
 
 map.addControl(new mapboxgl.NavigationControl());
@@ -92,7 +92,7 @@ map.on('load', function () {
                 'type': 'Feature',
                 'geometry': {
                     'type': 'Point',
-                    'coordinates': [-74, 50],
+                    'coordinates': [0, 0],
                 }
             }]
         }
@@ -122,41 +122,42 @@ function heroLocation() {
             <h4>Location - Fortress of Solitude</h4>
             <h4>Co-ordinates - 90.00° N, 135.00° W</h4>
             <h4>Mission - Superman has gone back to the Fortress of solitude to find answers about Krypton, 
-            his home world.</h4>`);
+            his home world</h4>`);
 
     } else if (herosResult === herosArray[1]) {
 
         document.getElementById('hero-location').innerHTML =
-            (`<h4>Hero: Batman</h4>
-            <h4>Location: Gotham City</h4>
-            <h4>Co-ordinates:40.7128° N, 74.0060° W</h4>
-            <h4>Mission - We've picked up reports from GCPD of explosions at ACE chemicals, 
-            We've sent Batman to investigate</h4>`);
+            (`<img src="assets/images/unsplash_batman.jpg" style="height:200px;width:300px;" >
+            <h5>Hero - Batman</h5>
+            <h5>Location - Gotham City</h5>
+            <h5>Co-ordinates:40.7128° N, 74.0060° W</h5>
+            <h5>Mission - We've picked up reports from GCPD of explosions at ACE chemicals, 
+            We've sent Batman to investigate</h5>`);
 
     } else if (herosResult === herosArray[2]) {
 
         document.getElementById('hero-location').innerHTML =
-            (`<h4>Hero: Wonder Woman</h4>
-            <h4>Location: Paris</h4>
-            <h4>Co-ordinates:48.8566° N, 2.3522° E</h4>
+            (`<h4>Hero - Wonder Woman</h4>
+            <h4>Location - Paris</h4>
+            <h4>Co-ordinates - 48.8566° N, 2.3522° E</h4>
             <h4>Mission - We've sent Wonder Women to link up with Interpol to stop a 
             potential robbery at The Louvre</h4>`);
 
     } else if (herosResult === herosArray[3]) {
 
         document.getElementById('hero-location').innerHTML =
-            (`<h4>Hero: Aquaman</h4>
-            <h4>Location: Mariana Trench</h4>
-            <h4>Co-ordinates: 11.3493° N, 142.1996° E</h4>
+            (`<h4>Hero - Aquaman</h4>
+            <h4>Location - Mariana Trench</h4>
+            <h4>Co-ordinates - 11.3493° N, 142.1996° E</h4>
             <h4>Mission - We picked up a distress call from a deep sea exploration vessel, 
-            Aquaman is coming to their aid.</h4>`);
+            Aquaman is coming to their aid</h4>`);
 
     } else if (herosResult === herosArray[4]) {
 
         document.getElementById('hero-location').innerHTML =
-            (`<h4>Hero: The Flash</h4>
-            <h4>Location: Central City</h4>
-            <h4>Co-ordinates: 41.8781° N, 87.6298° W</h4>
+            (`<h4>Hero - The Flash</h4>
+            <h4>Location - Central City</h4>
+            <h4>Co-ordinates - 41.8781° N, 87.6298° W</h4>
             <h4>Mission - The Flash is in Central City, 
             following up a lead on a series of thefts in the downtown area.</h4>`);
 
