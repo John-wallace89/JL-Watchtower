@@ -117,6 +117,7 @@ function heroLocation() {
     console.log(herosResult);
 
     if (herosResult === herosArray[0]) {
+
         document.getElementById('hero-location').innerHTML =
             (`<h4>Hero - Superman</h4>
             <h4>Location - Fortress of Solitude</h4>
@@ -128,11 +129,11 @@ function heroLocation() {
 
         document.getElementById('hero-location').innerHTML =
             (`<img src="assets/images/unsplash_batman.jpg" style="height:200px;width:300px;" >
-            <h5>Hero - Batman</h5>
-            <h5>Location - Gotham City</h5>
-            <h5>Co-ordinates:40.7128° N, 74.0060° W</h5>
-            <h5>Mission - We've picked up reports from GCPD of explosions at ACE chemicals, 
-            We've sent Batman to investigate</h5>`);
+            <h4>Hero - Batman</h4>
+            <h4>Location - Gotham City</h4>
+            <h4>Co-ordinates:40.7128° N, 74.0060° W</h4>
+            <h4>Mission - We've picked up reports from GCPD of explosions at ACE chemicals, 
+            We've sent Batman to investigate</h4>`);
 
     } else if (herosResult === herosArray[2]) {
 
@@ -164,9 +165,11 @@ function heroLocation() {
     } else if (herosResult === herosArray[5]) {
 
         document.getElementById('hero-location').innerHTML =
-            (`<h4>Hero: Martian Manhunter</h4>
+            //Credit: https://codepen.io/anasandoval90/pen/jPXxaR?__cf_chl_jschl_tk__=3e6196e3b7f32394323bc8097265506c651868fd-1591480453-0-Ae-640MXtDRF1PrcznnUOAzc-P2rgSRxSlYIrrmR5aH6f2zoGgmL7Hxmb2_6MCuOU2f0o2GcvbvRPu7jp88anP1oSadtBEpzYPSVYcT2CVg-cQ15Ckg9lo_6m0bhyKEqfaMJx6p9STxX5eKiVLEAHGQn2xOC0OIT0OiV2HDXg5IJTOMjgMwkeH03RISNjISzw8kUfDzmiKxY_DdzzxkpKEh4hrJXRFV2aTEH7qKZRpEkRVW7_5OKA9aonK0Tsb_dOzv8kVHI79SfqHFPJCEk6hC3smKMjhi02jlJuzzci6jJRdc_eFy1QlCkhlAQ0NicCykIt0rRCedpfndRDjeEy5PuSq839amBFF-IvM-OzFR8
+            (`<h2 class="intro-title blink" style="color: red; letter-spacing: 3px;">location not found</h2>
+            <h4>Hero: Martian Manhunter</h4>
             <h4>Location: Unknown</h4>
-            <h4>Not on Earth, <a href="scanner.html">click here</a> to activate long range scanners.</h6>`);
+            <h4>Not on Earth, <a href="scanner.html">click here</a> to activate long range scanners.</h4>`);
 
     } else {
         console.log("no hero found!");

@@ -101,13 +101,12 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <button type="button" class="btn btn-lg btn-map hero-btn" onclick="heroLocation(event)">Find Our Heros</button>
-            </div>
-        </div>
         <div class="row content">
-            <div class="col" id="hero-location">
+            <div class="col">
+                <button type="button" class="btn btn-lg btn-map hero-btn" onclick="heroLocation(event)">Find Our
+                    Heros</button>
+                <div id="hero-location">
+                </div>
             </div>
         </div>
         <div class="col col-map" id="hero-div">
@@ -261,7 +260,25 @@
     <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-to-top">
         <a href="#top"></a><i class="fas fa-chevron-up"></i></a>
     </button>
-    <footer></footer>
+    <footer class="container-fluid bg-color-footer">
+        <div class="row">
+            <div class="col footer-col">
+                <div class="col footer-col">
+                    <a href="https://www.instagram.com" target="_blank" class="social-icon"><i
+                            class="fab fa-instagram-square" aria-hidden="true"></i>
+                        <span class="sr-only">instagram</span>
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank" class="social-icon"><i
+                            class="fab fa-facebook-square" aria-hidden="true"></i><span class="sr-only">facebook</span>
+                    </a>
+                </div>
+                <div class="col footer-col">
+                    <img class="footer-img" src="assets/images/emo_justiceleague_02.jpg"
+                        style="height:100px; width: 100px;" alt="justice league logo">
+                </div>
+            </div>
+        </div>
+    </footer>
     <!---------------------------------------Scripts --------------------------->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

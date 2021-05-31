@@ -29,6 +29,10 @@
     background-color: #fafafa;
 }
 
+.bg-color-footer {
+    background-color: #fafafa;
+}
+
 /*------------------------------------------Text formatting------------------*/
 
 .page-title {
@@ -193,7 +197,6 @@
     text-transform: uppercase;
     text-align: center;
     width: 100%;
-    padding-top: 4rem;
 }
 
 .content {
@@ -304,6 +307,27 @@ ul {
 
 }
 
+@-webkit-keyframes blinker {
+    from {
+        opacity: 1.0;
+    }
+
+    to {
+        opacity: 0.0;
+    }
+}
+
+.blink {
+    text-decoration: blink;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 0.6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+}
+
+
+
 /*----------------------------------------Card flip heros------------*/
 
 .card-block .btn-outline-primary {
@@ -355,7 +379,7 @@ ul {
     transform: rotateY(-180deg);
 }
 
-/*---------img--------------*/
+/*-------------------img--------------*/
 img {
     height: 300px;
     width: 100%;
@@ -386,4 +410,43 @@ img {
     color: yellow;
     font-family: "Teko", sans-serif;
     font-size: 20px;
+}
+
+/*-------------------footer--------------*/
+
+.footer-col {
+    display: inline-block;
+	text-align: center;
+	margin: 0;
+	padding-top: 15px;
+    width: 100%;
+}
+
+.footer-col a {
+	text-decoration: none;
+}
+
+.social-icon i {
+	text-decoration: none;
+	font-size: 30px;
+	color: #093146;
+    padding: 10px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+	transition: all 0.20s ease-in-out;
+	-webkit-transition: all 0.20s ease-in-out;
+	-moz-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+    text-align: right;
+}
+
+.social-icon i:hover {
+	transform: scale(1.25);
+}
+
+.footer-img {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+
 }
