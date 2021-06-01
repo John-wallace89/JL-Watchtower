@@ -263,7 +263,7 @@ ul {
 
 /*------------------------------------------Scrolling------------------*/
 .section {
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
 /*----------------------------------------back to top button------------*/
@@ -307,6 +307,16 @@ ul {
 
 }
 
+@keyframes blinker {
+    from {
+        opacity: 1.0;
+    }
+
+    to {
+        opacity: 0.0;
+    }
+}
+
 @-webkit-keyframes blinker {
     from {
         opacity: 1.0;
@@ -325,6 +335,18 @@ ul {
     -webkit-animation-timing-function: ease-in-out;
     -webkit-animation-direction: alternate;
 }
+
+#hero-location a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+#hero-location a:hover {
+    color: orange;
+}
+
+
+
 
 
 
@@ -391,6 +413,13 @@ img {
     background-color: grey;
 }
 
+.info-hg {
+    background-color: goldenrod;
+    color: black;
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+}
+
 .info-ga {
     background-color: green;
     color: #fafafa;
@@ -416,32 +445,32 @@ img {
 
 .footer-col {
     display: inline-block;
-	text-align: center;
-	margin: 0;
-	padding-top: 15px;
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
     width: 100%;
 }
 
 .footer-col a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .social-icon i {
-	text-decoration: none;
-	font-size: 30px;
-	color: #093146;
+    text-decoration: none;
+    font-size: 30px;
+    color: #093146;
     padding: 10px;
     margin-left: 5rem;
     margin-right: 5rem;
-	transition: all 0.20s ease-in-out;
-	-webkit-transition: all 0.20s ease-in-out;
-	-moz-transition: all 0.20s ease-in-out;
+    transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
     -o-transition: all 0.20s ease-in-out;
     text-align: right;
 }
 
 .social-icon i:hover {
-	transform: scale(1.25);
+    transform: scale(1.25);
 }
 
 .footer-img {

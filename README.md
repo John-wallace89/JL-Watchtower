@@ -153,9 +153,11 @@ Bootstrap4: Bootstrap Library used throughout the project mainly to make site re
 
 <h3>Media</h3>
 <h4>Image credits</h4>
+
 * Batman photo credit - Photo by <a href="https://unsplash.com/@lusik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marcin Lukasik</a> on <a href="https://unsplash.com/s/photos/batman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 * Green Arrow Wallpaper - Image by <a href="https://wallpapercave.com/w/wp1973162">wallpapercave</a>
 * Green Lantern Wallpaper - Image by <a href="https://wallpaperaccess.com/green-lantern">wallpaper access</a>
 * Black Canary Wallpaper - Image by <a href="https://wallpapercave.com/w/wp1916634">wallpaper cave</a>
+* Hawkgirl Wallpaper - image by <a href="https://wallpapercave.com/hawkgirl-wallpapers">wallpaper cave</a>
 
 <h3>Acknowledgements</h3>
