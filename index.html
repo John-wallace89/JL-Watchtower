@@ -24,6 +24,7 @@
     <meta name="theme-color" content="#ffffff">
 
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -32,6 +33,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Justice League: The Watchtower</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_20TKa1C3OE9xbi8hmZOyl");
+        })();
+    </script>
 
 </head>
 
@@ -275,16 +284,18 @@
         <!--Credit - Matt Rudge: Walk through project, Code Institute-->
         <div class="row">
             <div class="col col-contact">
-                <form>
+                <form onsubmit="return contactForm(this);">
                     <input type="text" name="name" id="fullname" class="form-control"
                         placeholder="e.g. Alfred Pennyworth" required />
                     <input type="email" name="email" id="emailaddress" class="form-control"
                         placeholder="e.g. alfred@wayneenterprises.com" required />
+                    <input type="text" name="area" id="crimearea" class="form-control"
+                        placeholder="e.g. Metropolis" required />
                     <textarea rows="5" name="emailbody" id="emailbody" class="form-control"
                         placeholder="Crime details here..." required></textarea>
                     <div class="form-row text-center">
                         <div class="col">
-                            <button type="submit" class="btn btn-secondary btn-send">Send</button>
+                            <button type="submit" class="btn btn-send">Send</button>
                         </div>
                     </div>
                 </form>
@@ -331,6 +342,7 @@
     <script src="assets/js/scroll.js"></script>
     <script src="assets/js/recruits.js"></script>
     <script src="assets/js/heros.js"></script>
+    <script src="assets/js/contact.js"></script>
 
 
 

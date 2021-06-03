@@ -492,6 +492,12 @@ img {
     color: #093146;
 }
 
+.btn-send:hover {
+    background-color: #093146;
+    color: #fafafa;
+    border: solid 2px #fafafa;
+}
+
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
