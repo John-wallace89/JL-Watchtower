@@ -307,6 +307,8 @@ ul {
 
 }
 
+/*----------------------------------------Credit: See hero.js - ------------*/
+
 @keyframes blinker {
     from {
         opacity: 1.0;
@@ -479,3 +481,26 @@ img {
     margin: 0;
 
 }
+
+/*----------------------------------------Contact us - ------------*/
+.btn-send {
+    margin: 2rem;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    background-color: #fafafa;
+    color: #093146;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+#contact-us {
+    border: solid 2px orange;
+}
+
+
+

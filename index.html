@@ -115,10 +115,11 @@
     </section>
     <!--Find New Recruits -->
     <section class="section container-fluid" id="find-new-recruits">
-        <div class="row">
+        <div class="row intro-block">
             <div class="col">
-                <h3 class="title">find new recruits</h3>
-                <p class="content">As the earth fills up with villains, so to must the Justice League<span>&#169;</span>
+                <h3 class="intro-title">find new recruits</h3>
+                <p class="intro-content">As the earth fills up with villains, so to must the Justice
+                    League<span>&#169;</span>
                     bolster it's ranks<br>
                     take a look at the potential candidates below, and click on each profile to learn more about
                     them,<br>
@@ -163,7 +164,7 @@
                                     Secret Identity: Bruce Wayne<br>
                                     Location: Gotham City<br>
                                     Weapon/Powers: Utility Belt/Thermal detanator<br>
-                                    
+
                                 </p>
                             </span>
                         </div>
@@ -259,17 +260,40 @@
         </div>
     </section>
     <!--Find the villains -->
-    <section class="section" id="find-the-villains">
+    <section class="section container-fluid" id="find-the-villains">
 
     </section>
     <!--Contact Us-->
-    <section class="section" id="contact-us">
-
+    <section class="section container-fluid" id="contact-us">
+        <div class="row">
+            <div class="col">
+                <h3 class="title">Contact Us</h3>
+                <p class="content">Want to report a crime? Fill out the form below and we'll get a hero to you as fast
+                    as possible!</p>
+            </div>
+        </div>
+        <!--Credit - Matt Rudge: Walk through project, Code Institute-->
+        <div class="row">
+            <div class="col col-contact">
+                <form>
+                    <input type="text" name="name" id="fullname" class="form-control"
+                        placeholder="e.g. Alfred Pennyworth" required />
+                    <input type="email" name="email" id="emailaddress" class="form-control"
+                        placeholder="e.g. alfred@wayneenterprises.com" required />
+                    <textarea rows="5" name="emailbody" id="emailbody" class="form-control"
+                        placeholder="Crime details here..." required></textarea>
+                    <div class="form-row text-center">
+                        <div class="col">
+                            <button type="submit" class="btn btn-secondary btn-send">Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="center-form">
+        </div>
     </section>
-    <!--------------------------------------------Back-to top button--------------->
-    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-to-top">
-        <a href="#top"></a><i class="fas fa-chevron-up"></i></a>
-    </button>
+    <!-----------------------------Footer-------------------------------->
     <footer class="container-fluid bg-color-footer">
         <div class="row">
             <div class="col footer-col">
@@ -281,6 +305,9 @@
                     <a href="https://www.facebook.com" target="_blank" class="social-icon"><i
                             class="fab fa-facebook-square" aria-hidden="true"></i><span class="sr-only">facebook</span>
                     </a>
+                    <p class="intro-content">All books, titles, characters, character names, slogans, logos, and related
+                        indicia are trademarks of and copyright DC Comics and/or WildStorm Productions, an imprint of DC
+                        Comics.</p>
                 </div>
                 <div class="col footer-col">
                     <img class="footer-img" src="assets/images/emo_justiceleague_02.jpg"
@@ -289,6 +316,10 @@
             </div>
         </div>
     </footer>
+    <!--------------------------------------------Back-to top button--------------->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-to-top">
+        <a href="#top"></a><i class="fas fa-chevron-up"></i></a>
+    </button>
     <!---------------------------------------Scripts --------------------------->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
