@@ -488,6 +488,7 @@ img {
 
 /*----------------------------------------Contact us - ------------*/
 .btn-send {
+    width: 100px;
     margin: 2rem;
     text-align: center;
     font-family: 'Teko', sans-serif;
@@ -510,6 +511,16 @@ img {
 
 #contact-us {
     border: solid 2px orange;
+}
+
+.btn-reset {
+    width: 100px;
+    margin: 2rem;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    background-color: #fafafa;
+    color: #093146;
 }
 
 

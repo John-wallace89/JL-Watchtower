@@ -35,6 +35,7 @@ function heroLocation() {
             zoom: 3,
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
         });
+        document.getElementById('map').classList.remove('hide');
 
     } else if (herosResult === herosArray[1]) {
 
@@ -53,6 +54,7 @@ function heroLocation() {
             zoom: 3,
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
         });
+        document.getElementById('map').classList.remove('hide');
 
     } else if (herosResult === herosArray[2]) {
 
@@ -70,6 +72,7 @@ function heroLocation() {
             zoom: 3,
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
         });
+        document.getElementById('map').classList.remove('hide');
 
     } else if (herosResult === herosArray[3]) {
 
@@ -87,6 +90,7 @@ function heroLocation() {
             zoom: 3,
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
         });
+        document.getElementById('map').classList.remove('hide');
 
     } else if (herosResult === herosArray[4]) {
 
@@ -104,6 +108,7 @@ function heroLocation() {
             zoom: 3,
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
         });
+        document.getElementById('map').classList.remove('hide');
 
     } else if (herosResult === herosArray[5]) {
 

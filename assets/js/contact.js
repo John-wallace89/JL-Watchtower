@@ -8,6 +8,8 @@ function contactForm(contactForm) {
         .then(
              function(response) {
             console.log("Email sent!", response);
+            document.getElementById("myForm").reset();
+            alert("You've reported a crime!");
         },
         function(error) {
             console.log("Error", error);

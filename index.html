@@ -284,25 +284,21 @@
         <!--Credit - Matt Rudge: Walk through project, Code Institute-->
         <div class="row">
             <div class="col col-contact">
-                <form onsubmit="return contactForm(this);">
+                <form onsubmit="return contactForm(this);" id="myForm">
                     <input type="text" name="name" id="fullname" class="form-control"
                         placeholder="e.g. Alfred Pennyworth" required />
                     <input type="email" name="email" id="emailaddress" class="form-control"
                         placeholder="e.g. alfred@wayneenterprises.com" required />
-                    <input type="text" name="area" id="crimearea" class="form-control"
-                        placeholder="e.g. Metropolis" required />
+                    <input type="text" name="area" id="crimearea" class="form-control" placeholder="e.g. Metropolis"
+                        required />
                     <textarea rows="5" name="emailbody" id="emailbody" class="form-control"
                         placeholder="Crime details here..." required></textarea>
                     <div class="form-row text-center">
                         <div class="col">
-                            <button type="submit" class="btn btn-send">Send</button>
+                            <button type="submit" class="btn btn-primary btn-send">Send</button>
                         </div>
                     </div>
                 </form>
-            </div>
-        </div>
-        <div class="center-form">
-        </div>
     </section>
     <!-----------------------------Footer-------------------------------->
     <footer class="container-fluid bg-color-footer">
