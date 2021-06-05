@@ -33,6 +33,11 @@
     background-color: #fafafa;
 }
 
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
 /*------------------------------------------Text formatting------------------*/
 
 .page-title {
@@ -42,7 +47,7 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    width: 100%;
+    max-width: 100%;
     letter-spacing: 2px;
     margin: 0;
     animation: fadeIn linear 5s;
@@ -212,7 +217,7 @@
 /*------------------------------------------Navigation------------------*/
 
 nav {
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 ul {
@@ -522,6 +527,20 @@ img {
     background-color: #fafafa;
     color: #093146;
 }
+
+/*-------------------Media Queries----------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+  .page-title {
+    font-size: 50px;
+  }
+  .page-subtitle {
+      font-size: 30px;
+  }
+}
+
+
+
 
 
 
