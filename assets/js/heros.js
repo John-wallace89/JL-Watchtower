@@ -26,7 +26,8 @@ function heroLocation() {
             <h4>Location - Fortress of Solitude</h4>
             <h4>Co-ordinates - 76.2506° N, 100.1140° W</h4>
             <h4>Mission - Superman has gone back to the Fortress of solitude to find answers about Krypton, 
-            his home world</h4>`);
+            his home world</h4>
+            <h4>Click again to find another hero!</h4>`);
         var marker = new mapboxgl.Marker()
             .setLngLat([-100, 76])
             .addTo(map); // add the marker to the map
@@ -45,7 +46,8 @@ function heroLocation() {
             <h4>Location - Gotham City</h4>
             <h4>Co-ordinates - 40.7128° N, 74.0060° W</h4>
             <h4>Mission - We've picked up reports from GCPD of explosions at ACE chemicals, 
-            We've sent Batman to investigate</h4>`);
+            We've sent Batman to investigate</h4>
+            <h4>Click again to find another hero!</h4>`);
         var marker = new mapboxgl.Marker()
             .setLngLat([-74, 40])
             .addTo(map); // add the marker to the map
@@ -63,7 +65,8 @@ function heroLocation() {
             <h4>Location - Paris</h4>
             <h4>Co-ordinates - 48.8566° N, 2.3522° E</h4>
             <h4>Mission - We've sent Wonder Women to link up with Interpol to stop a 
-            potential robbery at The Louvre</h4>`);
+            potential robbery at The Louvre</h4>
+            <h4>Click again to find another hero!</h4>`);
         var marker = new mapboxgl.Marker()
             .setLngLat([2.3, 48])
             .addTo(map); // add the marker to the map
@@ -81,7 +84,8 @@ function heroLocation() {
             <h4>Location - Mariana Trench</h4>
             <h4>Co-ordinates - 11.3493° N, 142.1996° E</h4>
             <h4>Mission - We picked up a distress call from a deep sea exploration vessel, 
-            Aquaman is coming to their aid</h4>`);
+            Aquaman is coming to their aid</h4>
+            <h4>Click again to find another hero!</h4>`);
         var marker = new mapboxgl.Marker()
             .setLngLat([142, 11.3])
             .addTo(map); // add the marker to the map
@@ -99,7 +103,8 @@ function heroLocation() {
             <h4>Location - Central City</h4>
             <h4>Co-ordinates - 41.8781° N, 87.6298° W</h4>
             <h4>Mission - The Flash is in Central City, 
-            following up a lead on a series of thefts in the downtown area.</h4>`);
+            following up a lead on a series of thefts in the downtown area.</h4>
+            <h4>Click again to find another hero!</h4>`);
         var marker = new mapboxgl.Marker()
             .setLngLat([-87, 41.8])
             .addTo(map); // add the marker to the map
@@ -117,7 +122,8 @@ function heroLocation() {
             (`<h2 class="intro-title blink" style="color: red; letter-spacing: 3px;">location not found</h2>
             <h4>Hero: Martian Manhunter</h4>
             <h4>Location: Unknown</h4>
-            <h4>Not on Earth, <a href="scanner.html">click here</a> to activate long range scanners.</h4>`);
+            <h4>Not on Earth, <a href="scanner.html">click here</a> to activate long range scanners.</h4>
+            <h4>Click again to find another hero!</h4>`);
             document.getElementById('map').classList.add('hide');
 
     } else {
