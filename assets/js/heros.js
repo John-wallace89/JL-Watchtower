@@ -1,13 +1,13 @@
 // Credit--- Mapbox https://docs.mapbox.com/mapbox-gl-js/example/add-image-animated/--
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam9obi13YWxsYWNlODkiLCJhIjoiY2tvdHNuaDNpMGVmejJvcWpuZGUzdmJmbiJ9.BOt8BK_I-TyL3DxXUeKPig';
-var map = new mapboxgl.Map({
+var heroMap = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/john-wallace89/ckoxcyrn00j2w17mqtb9xelyf',
     center: [0, 0],
     zoom: 1, // starting zoom
 });
 
-map.addControl(new mapboxgl.NavigationControl());
+heroMap.addControl(new mapboxgl.NavigationControl());
 
 let heroButton = document.getElementById('hero-btn');
 heroButton.addEventListener('click', heroLocation);
@@ -30,8 +30,8 @@ function heroLocation() {
             <h4>Click again to find another hero!</h4>`);
         var marker = new mapboxgl.Marker()
             .setLngLat([-100, 76])
-            .addTo(map); // add the marker to the map
-        map.flyTo({
+            .addTo(heroMap); // add the marker to the map
+        heroMap.flyTo({
             center: [-100, 76],
             zoom: 3,
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
@@ -41,8 +41,7 @@ function heroLocation() {
     } else if (herosResult === herosArray[1]) {
 
         document.getElementById('hero-location').innerHTML =
-            (`<img src="assets/images/unsplash_batman.jpg" style="height:200px;width:300px;" >
-            <h4>Hero - Batman</h4>
+            (`<h4>Hero - Batman</h4>
             <h4>Location - Gotham City</h4>
             <h4>Co-ordinates - 40.7128° N, 74.0060° W</h4>
             <h4>Mission - We've picked up reports from GCPD of explosions at ACE chemicals, 
@@ -50,8 +49,8 @@ function heroLocation() {
             <h4>Click again to find another hero!</h4>`);
         var marker = new mapboxgl.Marker()
             .setLngLat([-74, 40])
-            .addTo(map); // add the marker to the map
-        map.flyTo({
+            .addTo(heroMap); // add the marker to the map
+        heroMap.flyTo({
             center: [-74.5, 40],
             zoom: 3,
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
@@ -69,8 +68,8 @@ function heroLocation() {
             <h4>Click again to find another hero!</h4>`);
         var marker = new mapboxgl.Marker()
             .setLngLat([2.3, 48])
-            .addTo(map); // add the marker to the map
-        map.flyTo({
+            .addTo(heroMap); // add the marker to the map
+        heroMap.flyTo({
             center: [2.3, 48],
             zoom: 3,
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
@@ -88,8 +87,8 @@ function heroLocation() {
             <h4>Click again to find another hero!</h4>`);
         var marker = new mapboxgl.Marker()
             .setLngLat([142, 11.3])
-            .addTo(map); // add the marker to the map
-        map.flyTo({
+            .addTo(heroMap); // add the marker to the map
+        heroMap.flyTo({
             center: [142, 11.3],
             zoom: 3,
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
@@ -107,8 +106,8 @@ function heroLocation() {
             <h4>Click again to find another hero!</h4>`);
         var marker = new mapboxgl.Marker()
             .setLngLat([-87, 41.8])
-            .addTo(map); // add the marker to the map
-        map.flyTo({
+            .addTo(heroMap); // add the marker to the map
+        heroMap.flyTo({
             center: [-87, 41.8],
             zoom: 3,
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
@@ -124,7 +123,7 @@ function heroLocation() {
             <h4>Location: Unknown</h4>
             <h4>Not on Earth, <a href="scanner.html">click here</a> to activate long range scanners.</h4>
             <h4>Click again to find another hero!</h4>`);
-            document.getElementById('map').classList.add('hide');
+        document.getElementById('map').classList.add('hide');
 
     } else {
         console.log("no hero found!");

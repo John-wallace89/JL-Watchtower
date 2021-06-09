@@ -26,6 +26,9 @@
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
 
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet"
+        href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css"
+        type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
@@ -109,16 +112,18 @@
                 </div>
             </div>
         </div>
-        <div class="row content">
-            <div class="col">
+        <div class="row content row-map container-fluid">
+            <div class="col-sm-6">
                 <button type="button" class="btn btn-lg btn-map hero-btn" onclick="heroLocation(event)">Find Our
                     Heros</button>
                 <div id="hero-location">
                 </div>
             </div>
-        </div>
-        <div class="col col-map" id="hero-div">
-            <div id="map"></div>
+            <div class="col-sm-6">
+                <div class="col" id="hero-div">
+                    <div id="map"></div>
+                </div>
+            </div>
         </div>
     </section>
     <!--Find New Recruits -->
@@ -161,17 +166,19 @@
                     <div class="card card-flip" onclick="flip(event)">
                         <div class="front card-block">
                             <span class="card-img-top">
-                                <img src="assets/images/unsplash_batman.jpg" alt="Batman">
+                                <img src="assets/images/cyborg.jpg" alt="Batman">
                             </span>
                         </div>
-                        <div class="back card-block">
+                        <div class="back info-cyborg card-block">
                             <span class="card-img-top">
-                                <h5>The Batman</h5>
+                                <h5>Cyborg</h5>
                                 <p style="text-align: center; width: 100%;">
-                                    Secret Identity: Bruce Wayne<br>
-                                    Location: Gotham City<br>
-                                    Weapon/Powers: Utility Belt/Thermal detanator<br>
-
+                                    Secret Identity: Victor Stone<br>
+                                    Location: Detroit<br>
+                                    Weapon/Powers: Has various interchangeable power based weapons and can interface
+                                    with any eleterical output<br>
+                                    Weaknesses: Victor is young and little brash, but he will be a great asset for the
+                                    war ahead.
                                 </p>
                             </span>
                         </div>
@@ -204,18 +211,18 @@
                     <div class="card card-flip" onclick="flip(event)">
                         <div class="front card-block">
                             <span class="card-img-top">
-                                <img src="assets/images/unsplash_batman.jpg" alt="Batman">
+                                <img src="assets/images/Shazam.jpg" alt="Batman">
                             </span>
                         </div>
-                        <div class="back card-block">
+                        <div class="back info-shazam card-block">
                             <span class="card-img-top">
-                                <h5>The Batman</h5>
+                                <h5>Shazam!</h5>
                                 <p style="text-align: center; width: 100%;">
-                                    Secret Identity: Bruce Wayne<br>
-                                    Location: Gotham City<br>
-                                    Weapon/Powers: Utility Belt/Thermal detanator<br>
-                                    Mission: the GCPD building has completely froze over! Batman has gone to
-                                    investigate.
+                                    Secret Identity: Billy Batson<br>
+                                    Location: Philadelphia<br>
+                                    Weapon/Powers: Super strength and speed, powered by the rock of destiny<br>
+                                    Weaknesses: Although we're worried about Victor's inexperience, Billy is actually
+                                    only 15! but his power could be limitless.
                                 </p>
                             </span>
                         </div>
@@ -266,7 +273,8 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <p class="intro-content">Once you have learned their secret identity, click on the locators below to find their
+                    <p class="content">Once you have learned their secret identity, click on the locators below to
+                        find their
                         location!</p>
                 </div>
             </div>

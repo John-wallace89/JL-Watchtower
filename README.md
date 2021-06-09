@@ -159,5 +159,7 @@ Bootstrap4: Bootstrap Library used throughout the project mainly to make site re
 * Green Lantern Wallpaper - Image by <a href="https://wallpaperaccess.com/green-lantern">wallpaper access</a>
 * Black Canary Wallpaper - Image by <a href="https://wallpapercave.com/w/wp1916634">wallpaper cave</a>
 * Hawkgirl Wallpaper - image by <a href="https://wallpapercave.com/hawkgirl-wallpapers">wallpaper cave</a>
+* Cyborg wallpaper - image by <a href="https://wallpapercave.com/w/wp6281826">wallpaper cave</a>
+* Shazam wallpaper - image by <a href="https://wallpapercave.com/w/wp7325578">Wallpaper cave</a>
 
 <h3>Acknowledgements</h3>

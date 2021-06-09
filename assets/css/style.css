@@ -286,12 +286,15 @@ ul {
 
 /*---------Heros map-----------*/
 
-.col-map {
+.row-map {
     background-image: url(../images/digital_background.jpg);
     width: 100%;
     text-align: center;
 }
 
+#hero-div {
+    text-align: center;
+}
 
 .btn-map {
     margin: 2rem;
@@ -307,13 +310,17 @@ ul {
     text-align: center;
     height: 400px;
     max-width: 100%;
-    margin-right: 5em;
-    margin-left: 5em;
+    margin-right: 2em;
+    margin-left: 2em;
 
 }
 
 .hide {
     display: none;
+}
+
+#hero-location {
+    background-color: #093146;
 }
 
 /*----------------------------------------Credit: See hero.js - ------------*/
@@ -448,6 +455,20 @@ img {
 .info-bc {
     background-color: black;
     color: yellow;
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+}
+
+.info-cyborg {
+    background-color: black;
+    color: red;
+    font-family: "Teko", sans-serif;
+    font-size: 20px;
+}
+
+.info-shazam {
+    background-color: red;
+    color:yellow;
     font-family: "Teko", sans-serif;
     font-size: 20px;
 }

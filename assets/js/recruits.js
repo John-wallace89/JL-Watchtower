@@ -12,3 +12,6 @@ function flip(event) {
         }
     }
 };
+
+//Recruits Map Js
+//Credit: https://docs.mapbox.com/mapbox-gl-js/example/forward-geocode-custom-data/
