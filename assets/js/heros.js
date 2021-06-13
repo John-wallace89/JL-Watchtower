@@ -1,4 +1,4 @@
-// Credit--- Mapbox https://docs.mapbox.com/mapbox-gl-js/example/add-image-animated/--
+// Credit--- Mapbox https://docs.mapbox.com/mapbox-gl-js/--
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam9obi13YWxsYWNlODkiLCJhIjoiY2tvdHNuaDNpMGVmejJvcWpuZGUzdmJmbiJ9.BOt8BK_I-TyL3DxXUeKPig';
 var heroMap = new mapboxgl.Map({
     container: 'map',

@@ -419,7 +419,7 @@ ul {
     transform: rotateY(-180deg);
 }
 
-/*-------------------img--------------*/
+/*-------------------find recruits img--------------*/
 img {
     height: 300px;
     width: 100%;
@@ -471,6 +471,16 @@ img {
     color:yellow;
     font-family: "Teko", sans-serif;
     font-size: 20px;
+}
+
+/*----------------------------------------Recruits Map---------------------------------*/
+
+#recruit-map {
+    text-align: center;
+    height: 400px;
+    max-width: 100%;
+    margin-right: 2em;
+    margin-left: 2em;
 }
 
 /*-------------------footer--------------*/
