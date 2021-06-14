@@ -92,7 +92,7 @@ villainsMap.on('load', function () {
             'features': [{
                     'type': 'Feature',
                     'properties': {
-                        'description': '<strong>Make it Mount Pleasant</strong><p><a href="http://www.mtpleasantdc.com/makeitmtpleasant" target="_blank" title="Opens in a new window">Make it Mount Pleasant</a> is a handmade and vintage market and afternoon of live entertainment and kids activities. 12:00-6:00 p.m.</p>'
+                        'description': '<p>Reports of local tribesman in the Amazon being kidnapped by an army of sophisticated primates!<br>This sounds like the work of <a href="https://en.wikipedia.org/wiki/Gorilla_Grodd" target="_blank">Grodd!</a></p>'
                     },
                     'geometry': {
                         'type': 'Point',
@@ -101,6 +101,9 @@ villainsMap.on('load', function () {
                 },
                 {
                     'type': 'Feature',
+                    'properties': {
+                        'description': '<p>We have a hostage situation in the penthouse suite of Ceasars Palace in Las Vegas...and reports of a Hyena on guard outside...<br> sounds like <a href="https://en.wikipedia.org/wiki/Harley_Quinn" target="_blank">Harley Quinn</a> is up to no good again!</p>'
+                    },
                     'geometry': {
                         'type': 'Point',
                         'coordinates': [-115.4552016, 36.1252285] // icon position Harley Quinn
@@ -108,6 +111,9 @@ villainsMap.on('load', function () {
                 },
                 {
                     'type': 'Feature',
+                    'properties': {
+                        'description': '<p>A series of explosions at Ace chemicals in Gotham and a number of thugs spotted in clown masks...<br>We have sent Batman to deal with the <a href="https://en.wikipedia.org/wiki/the_joker" target="_blank">Joker</a></p>'
+                    },
                     'geometry': {
                         'type': 'Point',
                         'coordinates': [-74.2598796, 40.6976701] // icon position Joker
@@ -115,6 +121,9 @@ villainsMap.on('load', function () {
                 },
                 {
                     'type': 'Feature',
+                    'properties': {
+                        'description': '<p>Reports of riots in Athens and strange storms over Mount Olympos!<br> We suspect this is the work of <a href="https://en.wikipedia.org/wiki/Ares_(DC_Comics)" target="_blank">Ares</a>, god of war</p>'
+                    },
                     'geometry': {
                         'type': 'Point',
                         'coordinates': [23.6682984, 37.9909517] // icon position Aries
@@ -122,6 +131,9 @@ villainsMap.on('load', function () {
                 },
                 {
                     'type': 'Feature',
+                    'properties': {
+                        'description': '<p>We know <a href="https://en.wikiquote.org/wiki/Lex_Luthor" target="_blank">Lex Luthor</a> has anchored is yacht in the Bahamas... <br>We think he is looking for a meteor fragment. Best monitor his movements for now.</p>'
+                    },
                     'geometry': {
                         'type': 'Point',
                         'coordinates': [-77.5471827, 25.032806] // icon position Lex Luthor
@@ -129,9 +141,12 @@ villainsMap.on('load', function () {
                 },
                 {
                     'type': 'Feature',
+                    'properties': {
+                        'description': '<p>We are getting reports of a series of high-level assassinations in Singapore... <br>Only <a href="https://en.wikipedia.org/wiki/Deathstroke" target="_blank">Deathstroke</a> can operate with such deadly skill.</p>'
+                    },
                     'geometry': {
                         'type': 'Point',
-                        'coordinates': [103.7041593, 1.3143394] // icon position Lex Luthor
+                        'coordinates': [103.7041593, 1.3143394] // icon position Deathstroke
                     }
                 }
             ]

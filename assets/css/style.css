@@ -468,7 +468,7 @@ img {
 
 .info-shazam {
     background-color: red;
-    color:yellow;
+    color: yellow;
     font-family: "Teko", sans-serif;
     font-size: 20px;
 }
@@ -495,8 +495,9 @@ img {
 }
 
 .mapboxgl-popup {
-max-width: 400px;
-font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color:#093146;
+    font-family: 'Teko', sans-serif;
+    max-width: 400px;
 }
 
 /*----------------------------------------Contact us - ------------*/
@@ -535,6 +536,7 @@ font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
     background-color: #fafafa;
     color: #093146;
 }
+
 /*-------------------footer--------------*/
 
 .footer-col {
@@ -577,16 +579,11 @@ font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
 /*-------------------Media Queries----------------------------------------------------*/
 
 @media only screen and (max-width: 600px) {
-  .page-title {
-    font-size: 50px;
-  }
-  .page-subtitle {
-      font-size: 30px;
-  }
+    .page-title {
+        font-size: 50px;
+    }
+
+    .page-subtitle {
+        font-size: 30px;
+    }
 }
-
-
-
-
-
-
