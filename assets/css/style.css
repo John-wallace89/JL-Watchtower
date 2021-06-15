@@ -301,8 +301,8 @@ ul {
     text-align: center;
     font-family: 'Teko', sans-serif;
     font-size: 30px;
-    background-color: #fafafa;
-    color: #093146;
+    background-color: red;
+    color: #fafafa;
 
 }
 
@@ -495,7 +495,7 @@ img {
 }
 
 .mapboxgl-popup {
-    color:#093146;
+    color: #093146;
     font-family: 'Teko', sans-serif;
     max-width: 400px;
 }
