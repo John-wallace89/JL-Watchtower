@@ -586,4 +586,12 @@ img {
     .page-subtitle {
         font-size: 30px;
     }
+
+    #nav li {
+        font-family: "Teko", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding: 1rem;
+    }
 }
