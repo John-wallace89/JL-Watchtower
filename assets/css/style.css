@@ -356,10 +356,11 @@ ul {
 
 #hero-location a {
     text-decoration: none;
-    color: #fafafa;
+    color: orange;
 }
 
 #hero-location a:hover {
+    text-decoration: underline;
     color: orange;
 }
 
@@ -370,6 +371,9 @@ ul {
 
 /*----------------------------------------Card flip heros------------*/
 
+.flip-cta {
+    color: orange;
+}
 .card-block .btn-outline-primary {
     width: 100%;
     border-top-left-radius: 0;

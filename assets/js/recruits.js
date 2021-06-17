@@ -27,7 +27,8 @@ var customData = {
     'features': [{
             'type': 'Feature',
             'properties': {
-                'title': 'Oliver Queen'
+                'title': 'Oliver Queen',
+                'description': '<p>hello</p>'
             },
             'geometry': {
                 'coordinates': [-91.8782332, 33.9427327],
