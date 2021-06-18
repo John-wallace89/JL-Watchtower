@@ -30,7 +30,7 @@ function heroLocation() {
             <h4>Mission - Superman has gone back to the Fortress of solitude to find answers about Krypton, 
             his home world</h4>
             <h4>Click again to find another hero!</h4>`);
-        marker = new mapboxgl.Marker()
+       let marker = new mapboxgl.Marker()
             .setLngLat([-100, 76])
             .addTo(heroMap); // add the marker to the map
         heroMap.flyTo({
