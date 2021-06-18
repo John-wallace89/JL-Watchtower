@@ -1,5 +1,7 @@
+/*jshint esversion: 6 */
+
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam9obi13YWxsYWNlODkiLCJhIjoiY2tvdHNuaDNpMGVmejJvcWpuZGUzdmJmbiJ9.BOt8BK_I-TyL3DxXUeKPig';
-var villainsMap = new mapboxgl.Map({
+let villainsMap = new mapboxgl.Map({
     container: 'villain-map',
     style: 'mapbox://styles/john-wallace89/ckoxcyrn00j2w17mqtb9xelyf',
     center: [0, 0],
@@ -8,11 +10,11 @@ var villainsMap = new mapboxgl.Map({
 
 villainsMap.addControl(new mapboxgl.NavigationControl());
 
-var size = 200;
+let size = 200;
 
 // This implements `StyleImageInterface`
 // to draw a pulsing dot icon on the map.
-var pulsingDot = {
+let pulsingDot = {
     width: size,
     height: size,
     data: new Uint8Array(size * size * 4),
@@ -20,7 +22,7 @@ var pulsingDot = {
     // When the layer is added to the map,
     // get the rendering context for the map canvas.
     onAdd: function () {
-        var canvas = document.createElement('canvas');
+        let canvas = document.createElement('canvas');
         canvas.width = this.width;
         canvas.height = this.height;
         this.context = canvas.getContext('2d');

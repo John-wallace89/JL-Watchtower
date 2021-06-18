@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 function contactForm(contactForm) {
     emailjs.send("service_38n4p0g","template_watchtower", {
         "from_name": contactForm.name.value,

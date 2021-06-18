@@ -1,6 +1,8 @@
+/*jshint esversion: 6 */
+
 // Credit--- Mapbox https://docs.mapbox.com/mapbox-gl-js/--
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam9obi13YWxsYWNlODkiLCJhIjoiY2tvdHNuaDNpMGVmejJvcWpuZGUzdmJmbiJ9.BOt8BK_I-TyL3DxXUeKPig';
-var heroMap = new mapboxgl.Map({
+let heroMap = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/john-wallace89/ckoxcyrn00j2w17mqtb9xelyf',
     center: [0, 0],

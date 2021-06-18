@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 //Credit - took influences from https://www.ordinarycoders.com/blog/article/codepen-bootstrap-card-hovers//
 //and https://codepen.io/jacoboakley/pen/ZpRbqB
 
@@ -11,7 +13,7 @@ function flip(event) {
             element.style.transform = "rotateY(180deg)";
         }
     }
-};
+}
 
 //Recruits Map Js
 // Credit--- Mapbox https://docs.mapbox.com/mapbox-gl-js/---
@@ -101,9 +103,9 @@ function forwardGeocoder(query) {
         ) {
             // data results using carmen geojson format:
             // https://github.com/mapbox/carmen/blob/master/carmen-geojson.md
-            feature['place_name'] = feature.properties.title;
-            feature['center'] = feature.geometry.coordinates;
-            feature['place_type'] = ['park'];
+            feature.place_name = feature.properties.title;
+            feature.center = feature.geometry.coordinates;
+            feature.place_type = ['city'];
             matchingFeatures.push(feature);
         }
     }
