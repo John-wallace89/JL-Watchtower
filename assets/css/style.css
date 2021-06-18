@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
 
-
+/* --- Ran through W3C Jigsaw validator, no errors found---- */
 /*------------------------------------------Logo------------------*/
 /*-----Credit for image - https://www.pentagram.com/work/justice-league---*/
 .logo {
@@ -292,7 +292,7 @@ ul {
     text-align: center;
 }
 
-#hero-div {
+.hero-div {
     text-align: center;
 }
 
@@ -553,6 +553,7 @@ img {
     color: #093146;
     cursor: help;
 }
+
 /*----------------------------------------Contact us - ------------*/
 .btn-send {
     width: 100px;
