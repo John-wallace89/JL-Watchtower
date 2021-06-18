@@ -3,7 +3,7 @@ var villainsMap = new mapboxgl.Map({
     container: 'villain-map',
     style: 'mapbox://styles/john-wallace89/ckoxcyrn00j2w17mqtb9xelyf',
     center: [0, 0],
-    zoom: 2, // starting zoom
+    zoom: 1.5, // starting zoom
 });
 
 villainsMap.addControl(new mapboxgl.NavigationControl());

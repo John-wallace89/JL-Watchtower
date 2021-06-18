@@ -410,6 +410,7 @@ ul {
 .hero-cta {
     color: orange;
 }
+
 .card-block .btn-outline-primary {
     width: 100%;
     border-top-left-radius: 0;
@@ -525,7 +526,6 @@ img {
 
 
 /*----------------------------------------Villains Map---------------------------------*/
-
 #villain-map {
     text-align: center;
     height: 400px;
@@ -540,6 +540,19 @@ img {
     max-width: 400px;
 }
 
+.btn-info {
+    text-align: left;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    background-color: #fafafa;
+    color: #093146;
+}
+
+.btn-info:hover {
+    background-color: #fafafa;
+    color: #093146;
+    cursor: help;
+}
 /*----------------------------------------Contact us - ------------*/
 .btn-send {
     width: 100px;
@@ -577,7 +590,8 @@ img {
     color: #093146;
 }
 
-/*-------------------footer--------------*/
+
+/*--------------------------------------------------footer--------------*/
 
 .footer-col {
     display: inline-block;

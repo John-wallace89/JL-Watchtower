@@ -28,7 +28,7 @@ function heroLocation() {
             <h4>Mission - Superman has gone back to the Fortress of solitude to find answers about Krypton, 
             his home world</h4>
             <h4>Click again to find another hero!</h4>`);
-        var marker = new mapboxgl.Marker()
+        marker = new mapboxgl.Marker()
             .setLngLat([-100, 76])
             .addTo(heroMap); // add the marker to the map
         heroMap.flyTo({
@@ -47,7 +47,7 @@ function heroLocation() {
             <h4>Mission - We've picked up reports from GCPD of explosions at ACE chemicals, 
             We've sent Batman to investigate</h4>
             <h4>Click again to find another hero!</h4>`);
-        var marker = new mapboxgl.Marker()
+        marker = new mapboxgl.Marker()
             .setLngLat([-74, 40])
             .addTo(heroMap); // add the marker to the map
         heroMap.flyTo({
@@ -66,7 +66,7 @@ function heroLocation() {
             <h4>Mission - We've sent Wonder Women to link up with Interpol to stop a 
             potential robbery at The Louvre</h4>
             <h4>Click again to find another hero!</h4>`);
-        var marker = new mapboxgl.Marker()
+        marker = new mapboxgl.Marker()
             .setLngLat([2.3, 48])
             .addTo(heroMap); // add the marker to the map
         heroMap.flyTo({
@@ -85,7 +85,7 @@ function heroLocation() {
             <h4>Mission - We picked up a distress call from a deep sea exploration vessel, 
             Aquaman is coming to their aid</h4>
             <h4>Click again to find another hero!</h4>`);
-        var marker = new mapboxgl.Marker()
+        marker = new mapboxgl.Marker()
             .setLngLat([142, 11.3])
             .addTo(heroMap); // add the marker to the map
         heroMap.flyTo({
@@ -104,7 +104,7 @@ function heroLocation() {
             <h4>Mission - The Flash is in Central City, 
             following up a lead on a series of thefts in the downtown area.</h4>
             <h4>Click again to find another hero!</h4>`);
-        var marker = new mapboxgl.Marker()
+        marker = new mapboxgl.Marker()
             .setLngLat([-87, 41.8])
             .addTo(heroMap); // add the marker to the map
         heroMap.flyTo({
