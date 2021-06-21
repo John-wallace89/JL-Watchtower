@@ -12,7 +12,7 @@ let heroMap = new mapboxgl.Map({
 heroMap.addControl(new mapboxgl.NavigationControl());
 
 let heroButton = document.getElementById('hero-btn');
-heroButton.addEventListener('click', heroLocation);
+heroButton('click', heroLocation);
 
 
 function heroLocation() {
@@ -39,6 +39,7 @@ function heroLocation() {
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
         });
         document.getElementById('map').classList.remove('hide');
+        herosArray.shift();
 
     } else if (herosResult === herosArray[1]) {
 
@@ -58,7 +59,8 @@ function heroLocation() {
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
         });
         document.getElementById('map').classList.remove('hide');
-
+        herosArray.splice(1);
+        
     } else if (herosResult === herosArray[2]) {
 
         document.getElementById('hero-location').innerHTML =
@@ -77,6 +79,7 @@ function heroLocation() {
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
         });
         document.getElementById('map').classList.remove('hide');
+        herosArray.splice(2);
 
     } else if (herosResult === herosArray[3]) {
 
@@ -96,6 +99,7 @@ function heroLocation() {
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
         });
         document.getElementById('map').classList.remove('hide');
+        herosArray.splice(3);
 
     } else if (herosResult === herosArray[4]) {
 
@@ -106,7 +110,7 @@ function heroLocation() {
             <h4>Mission - The Flash is in Central City, 
             following up a lead on a series of thefts in the downtown area.</h4>
             <h4>Click again to find another hero!</h4>`);
-        marker = new mapboxgl.Marker()
+       marker = new mapboxgl.Marker()
             .setLngLat([-87, 41.8])
             .addTo(heroMap); // add the marker to the map
         heroMap.flyTo({
@@ -115,6 +119,7 @@ function heroLocation() {
             essential: true // this animation is considered essential with respect to prefers-reduced-motion
         });
         document.getElementById('map').classList.remove('hide');
+        herosArray.splice(4);
 
     } else if (herosResult === herosArray[5]) {
 
@@ -126,6 +131,7 @@ function heroLocation() {
             <h4>Not on Earth, <a href="scanner.html">click here</a> to activate long range scanners.</h4>
             <h4>Click again to find another hero!</h4>`);
         document.getElementById('map').classList.add('hide');
+        herosArray.splice(5);
 
     } else {
         console.log("no hero found!");

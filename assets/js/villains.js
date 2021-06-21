@@ -30,12 +30,12 @@ let pulsingDot = {
 
     // Call once before every frame where the icon will be used.
     render: function () {
-        var duration = 1000;
-        var t = (performance.now() % duration) / duration;
+        let duration = 1000;
+        let t = (performance.now() % duration) / duration;
 
-        var radius = (size / 2) * 0.3;
-        var outerRadius = (size / 2) * 0.7 * t + radius;
-        var context = this.context;
+        let radius = (size / 2) * 0.3;
+        let outerRadius = (size / 2) * 0.7 * t + radius;
+        let context = this.context;
 
         // Draw the outer circle.
         context.clearRect(0, 0, this.width, this.height);

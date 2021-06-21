@@ -4,7 +4,7 @@
 //and https://codepen.io/jacoboakley/pen/ZpRbqB
 
 function flip(event) {
-    var element = event.currentTarget;
+    let element = event.currentTarget;
     if (element.className === "card card-flip") {
         if (element.style.transform == "rotateY(180deg)") {
             element.style.transform = "rotateY(0deg)";
@@ -18,14 +18,14 @@ function flip(event) {
 //Recruits Map Js
 // Credit--- Mapbox https://docs.mapbox.com/mapbox-gl-js/---
 mapboxgl.accessToken = 'pk.eyJ1Ijoiam9obi13YWxsYWNlODkiLCJhIjoiY2tvdHNuaDNpMGVmejJvcWpuZGUzdmJmbiJ9.BOt8BK_I-TyL3DxXUeKPig';
-var recruitsMap = new mapboxgl.Map({
+let recruitsMap = new mapboxgl.Map({
     container: 'recruit-map',
     style: 'mapbox://styles/john-wallace89/ckoxcyrn00j2w17mqtb9xelyf',
     center: [0, 0],
     zoom: 1, // starting zoom
 });
 // Credit --- Mapbox Geocoder: https://docs.mapbox.com/mapbox-gl-js/example/forward-geocode-custom-data/ ---
-var customData = {
+const customData = {
     'features': [{
             'type': 'Feature',
             'properties': {
@@ -91,7 +91,7 @@ var customData = {
 };
 
 function forwardGeocoder(query) {
-    var matchingFeatures = [];
+    let matchingFeatures = [];
     for (var i = 0; i < customData.features.length; i++) {
         var feature = customData.features[i];
         // Handle queries with different capitalization
