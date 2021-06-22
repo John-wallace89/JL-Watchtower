@@ -331,12 +331,12 @@
         <div class="row">
             <div class="col col-contact">
                 <form onsubmit="return contactForm(this);" id="myForm">
-                    <input type="text" name="name" id="fullname" class="form-control"
-                        placeholder="e.g. Alfred Pennyworth" required />
-                    <input type="email" name="email" id="emailaddress" class="form-control"
-                        placeholder="e.g. alfred@wayneenterprises.com" required />
-                    <input type="text" name="area" id="crimearea" class="form-control" placeholder="e.g. Metropolis"
-                        required />
+                    <input type="text" name="name" id="fullname" class="form-control" aria-label="Full name"
+                        placeholder="Full Name" required />
+                    <input type="email" name="email" id="emailaddress" class="form-control" aria-label="Email Address"
+                        placeholder="Email Address" required />
+                    <input type="text" name="area" id="crimearea" class="form-control" aria-label="City"
+                        placeholder="City" required />
                     <textarea rows="5" name="emailbody" id="emailbody" class="form-control"
                         placeholder="Crime details here..." required></textarea>
                     <div class="form-row text-center">
