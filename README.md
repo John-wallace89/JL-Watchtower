@@ -160,14 +160,14 @@ main page.
 ![hero image screenshot](assets/images/screenshots/user_story_4c.JPG)
 ![hero image screenshot](assets/images/screenshots/user_story_4d.JPG)
 
-* User Story 7
+* User Story 7 & 8
 As a customer, I can see a clear CTA to interact with the 'Find Recruits' functionality.
 Result:
 ![hero image screenshot](assets/images/screenshots/user_story_7.JPG)
 ![hero image screenshot](assets/images/screenshots/user_story_7b.JPG)
 The find the Recuits section is clearly explained with the CTA highlighted in orange. when the user clicks on one of
 the tile, the tile flips and presents the user with some information. The layout of the tiles changes dependent on
-the screensize for better UX.
+the screen size for better UX.
 
 
 
