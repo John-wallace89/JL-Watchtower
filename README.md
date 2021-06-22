@@ -118,7 +118,7 @@ The W3C Markup Validator, W3C CSS and JSHint Validator Services were used to val
 
 
 ### Testing user stories ###
-* User Story 1
+* User Story 1 & 5
 As a customer, I can see what the site is for and the purpose of the site when I land on the page.
 Result: 
 ![hero image screenshot](assets/images/screenshots/user_story_1.JPG)
@@ -127,7 +127,7 @@ There is a clear page title followed by a clear navigation bar defining the diff
 This is followed by an introductory statement providing a brief for the site and a prompt for the user to navigate
 around the site.
 
-* User Story 2
+* User Story 2 & 5
 As a customer the navigation around the site is clearly displayed.
 Result:
 ![hero image screenshot](assets/images/screenshots/user_story_2a.JPG)
@@ -159,6 +159,17 @@ different page, and the user can see an embedded link to the Mars rover footage,
 main page.
 ![hero image screenshot](assets/images/screenshots/user_story_4c.JPG)
 ![hero image screenshot](assets/images/screenshots/user_story_4d.JPG)
+
+* User Story 7
+As a customer, I can see a clear CTA to interact with the 'Find Recruits' functionality.
+Result:
+![hero image screenshot](assets/images/screenshots/user_story_7.JPG)
+![hero image screenshot](assets/images/screenshots/user_story_7b.JPG)
+The find the Recuits section is clearly explained with the CTA highlighted in orange. when the user clicks on one of
+the tile, the tile flips and presents the user with some information. The layout of the tiles changes dependent on
+the screensize for better UX.
+
+
 
 ### Further testing ###
      

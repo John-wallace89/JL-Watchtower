@@ -11,15 +11,14 @@ let heroMap = new mapboxgl.Map({
 
 heroMap.addControl(new mapboxgl.NavigationControl());
 
-let heroButton = document.getElementById('hero-btn');
-heroButton('click', heroLocation);
+const heroButton = document.getElementById('hero-btn');
+heroButton.addEventListener('click', heroLocation);
 
 
 function heroLocation() {
 
     let herosArray = ['superman', 'batman', 'wonder-woman', 'aquaman', 'flash', 'martian-manhunter'];
     let herosResult = herosArray[Math.floor(Math.random() * herosArray.length)];
-    console.log(herosResult);
 
     if (herosResult === herosArray[0]) {
 
