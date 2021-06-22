@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 // Scroll animation for site - Credit https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1
 $(document).ready(function () {
   $("a").on("click", function (event) {
