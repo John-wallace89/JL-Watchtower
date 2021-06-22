@@ -14,7 +14,7 @@ $(document).ready(function () {
         }
       );
     }
-  })
+  });
 });
 // Back to top button functionality - Credit https://mdbootstrap.com/docs/standard/extended/back-to-top/
 let mybutton = document.getElementById("btn-to-top");
