@@ -63,6 +63,10 @@ and information on that crime such as the villain behind it.
 <h3 style="color: red">UPDATE</h3> Added link to pop-up to provide information on the villains committing the
 crime.
 
+* User Story 12 (NEW - Added functionality
+As a customer, I can report a crime in the 'contact us' section. I receive a confirmation that my email has been
+sent and an automatic reply.
+
 ### Design ###
 
 * Colour scheme - The colour scheme is dark blue and white which matches with the imagery on the site
@@ -105,16 +109,20 @@ JS
 
   
 
-<h1 style="text-align: center">Testing</h1>
+<h2 style="text-align: center">Testing</h2>
 
-The W3C Markup Validator, W3C CSS and JSHint Validator Services were used to validate the project pages to ensure there were no syntax errors.
+The W3C Markup Validator, W3C CSS and JSHint Validator Services were used to validate the project pages to ensure
+there were no syntax errors.
 
 * [W3C Markup validator](https://validator.w3.org/#validate_by_input)
+No errors were returned from the HTML validator.
 
 
 * [W3C CSS validator](https://jigsaw.w3.org/css-validator/validator)
+No errors were returned from the CSS validator
 
 * [JSHint](https://jshint.com/)
+No errors or warnings shown
 
 
 ### Testing user stories ###
@@ -165,9 +173,41 @@ As a customer, I can see a clear CTA to interact with the 'Find Recruits' functi
 Result:
 ![hero image screenshot](assets/images/screenshots/user_story_7.JPG)
 ![hero image screenshot](assets/images/screenshots/user_story_7b.JPG)
-The find the Recuits section is clearly explained with the CTA highlighted in orange. when the user clicks on one of
-the tile, the tile flips and presents the user with some information. The layout of the tiles changes dependent on
+The 'Find New Recruits' section is clearly explained with the CTA highlighted in orange. When the user clicks on
+one of the tiles, the tile flips and presents the user with some information. The layout of the tiles changes dependent on
 the screen size for better UX.
+
+* User story 9 (with change)
+As a customer, I can enter the secret identity of the hero in the previous section into the map and,
+it will display the hero's location on the map.
+Result:
+![hero image screenshot](assets/images/screenshots/user_story_9.JPG)
+User can type in the secret identity of a hero into the search box, and once the option is selected the user will
+be shown a marker with the hero's location. There is a clear CTA uner the tiles to prompt which actions the use
+should take. The map is responsive and can be displayed across different screen sizes.
+
+* User Story 10 & 11
+As a customer, I can see a clear CTA to interact the 'Find Villains' functionality.
+Result:
+![hero image screenshot](assets/images/screenshots/user_story_10.JPG)
+User is presented with a clear CTA highlighted in orange, that clearly describes the actions required from
+the user. When the user clicks on a beacon, a pop-up is displayed with details about a 'crime' and a link to the
+wikipedia page for details about the specific villain.
+![hero image screenshot](assets/images/screenshots/user_story_10b.JPG)
+![hero image screenshot](assets/images/screenshots/user_story_10c.JPG)
+The map is responsive and the link opens in a new page.
+
+* User Story 12 (NEW - Added functionality
+As a customer, I can report a crime in the 'contact us' section. I receive a confirmation that my email has been
+sent and an automatic reply.
+Results:
+![hero image screenshot](assets/images/screenshots/user_story_12.JPG)
+There is a clear CTA highlighted in orange. Placeholders have been left in each field to identify what information
+is required. When the user clicks send, they are presented with an alert to say they have been successful in
+submitting a form, and then receive an automatice reply with a response.
+![hero image screenshot](assets/images/screenshots/user_story_12b.JPG)
+![hero image screenshot](assets/images/screenshots/user_story_12c.JPG)
+
 
 
 
@@ -175,15 +215,32 @@ the screen size for better UX.
      
 
 * Bugs:
-     
+     The navigation links do not render correctly on Iphone 5 screen:
+     ![hero image screenshot](assets/images/screenshots/user_story_12.JPG)
+     Resolved: No, Iphone 5 is now an old model and the navigation renders correctly on all Iphone models in
+     the last 5 years. 
+     Future fix may include a collapsable nav bar that lends itself to smaller screens.
 
 * Changes from design:
+Changes in design are detailed in the user story section above, key changes include:
+User story 4 - change in functionality from multiple buttons to one button to reduce the clutter on the site.
+
+User story 8 - Change from buttons to 'Flip' tiles to add nother dimension of interactivity to the site.
+
+User story 9 - Included geocoder API in map and added custom data. This was to change the type of interaction with
+the various maps on the site.
+
+User story 11 - Enhanced functionality to provide link to external site and provide more information on 'villains'
+
+User story 12 - Added functionality of contact form the email.js to increase interaction of the site.
+
 
 
 * Potential enhancements:
+The use of a collapsable nav bar (as detailed in the bugs section) would help with displaying navigation on
+smaller screens.
 
-
-<h1 style="text-align: center">Deployment</h1>
+<h2 style="text-align: center">Deployment</h2>
 
 ### GitHub Pages ###
 The project was deployed to GitHub Pages using the following steps...
@@ -219,14 +276,19 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 
-<h1 style="text-align: center">Credits</h1>
+<h2 style="text-align: center">Credits</h2>
 
 ### Code ###
 Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
 ### Content ###
 
+All typed content was written by the developer. All characters, and place names were provided by DC comics.
+
 ### Media ###
+
+Live Mars rover footage [https://www.youtube.com/embed/6B_6K-splRU]
+Credit - Youtube provided the video uploaded by channel Cosmosapiens.
 
 #### Image credits ####
 
@@ -238,4 +300,8 @@ Bootstrap4: Bootstrap Library used throughout the project mainly to make site re
 * Cyborg wallpaper - image by <a href="https://wallpapercave.com/w/wp6281826">wallpaper cave</a>
 * Shazam wallpaper - image by <a href="https://wallpapercave.com/w/wp7325578">Wallpaper cave</a>
 
-<h3>Acknowledgements</h3>
+All books, titles, characters, character names, slogans, logos, and related indicia are trademarks of and copyright
+DC Comics and/or WildStorm Productions, an imprint of DC Comics.
+
+### Acknowledgements ###
+Thanks to Aaron my mentor, for advice on my project and the Code Institute Slack community.
