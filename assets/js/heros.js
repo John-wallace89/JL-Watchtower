@@ -16,7 +16,14 @@ heroButton.addEventListener('click', heroLocation);
 
 function heroLocation() {
 
-    let herosArray = ['superman', 'batman', 'wonder-woman', 'aquaman', 'flash', 'martian-manhunter'];
+    const herosArray = [
+        'superman',
+        'batman',
+        'wonder-woman',
+        'aquaman',
+        'flash',
+        'martian-manhunter'
+    ];
     let herosResult = herosArray[Math.floor(Math.random() * herosArray.length)];
 
     if (herosResult === herosArray[0]) {

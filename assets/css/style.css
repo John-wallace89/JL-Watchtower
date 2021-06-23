@@ -326,6 +326,8 @@ ul {
 /*----------------------------------------Credit: See hero.js - ------------*/
 
 .blink {
+    color: red;
+    letter-spacing: 3px;
     text-decoration: blink;
     -webkit-animation-name: blinker;
     animation-name: blinker;
