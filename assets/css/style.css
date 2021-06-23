@@ -542,18 +542,14 @@ img {
     max-width: 400px;
 }
 
-.btn-info {
-    text-align: left;
-    font-family: 'Teko', sans-serif;
-    font-size: 30px;
-    background-color: #fafafa;
-    color: #093146;
-}
-
-.btn-info:hover {
-    background-color: #fafafa;
-    color: #093146;
-    cursor: help;
+.hint-content {
+    font-family: "Teko", sans-serif;
+    color: orange;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
 }
 
 /*----------------------------------------Contact us - ------------*/
