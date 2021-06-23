@@ -240,6 +240,12 @@ User story 12 - Added functionality of contact form the email.js to increase int
 The use of a collapsable nav bar (as detailed in the bugs section) would help with displaying navigation on
 smaller screens.
 
+The 'Find Our Heros' functionality sometimes repeats objects in the array, which lets down the UX of the site.
+This means the user has to click several times to see the information for each hero. A potential fix for this would
+be removing an object from the Array once it has been displayed, or, using the Fisher-Yates algorithm (suggested by
+Code institute slack community Fisher-Yates ![https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle]) to prevent
+repetition.
+
 <h2 style="text-align: center">Deployment</h2>
 
 ### GitHub Pages ###
@@ -249,8 +255,9 @@ The project was deployed to GitHub Pages using the following steps...
 
 * At the top of the repository section, locate the "Settings" Button on the menu.
 * Scroll down the settings page until you find the "GitHub Pages" section.
+* You will see a message "Pages settings now has its own dedicated tab! Check it out here!" click on the link.
 * Under "Source", click the dropdown and select "Master Branch".The page will refresh.
-* Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+* The now published site link in the "GitHub Pages" section will be found at the top of the page.
 
 ### Forking the GitHub Repository ###
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
@@ -279,7 +286,14 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 <h2 style="text-align: center">Credits</h2>
 
 ### Code ###
-Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid
+System.
+
+w3Schools.com to help with some of the syntax of the Js.
+
+Mapbox.com for all the Map API's and Map/geocoder functionality.
+
+Email.js for the contact us email functionality.
 
 ### Content ###
 
