@@ -19,10 +19,8 @@
 .bg-color-header {
     background-image: url(../images/earth_image.jpg);
     background-repeat: no-repeat;
-    min-width: 100%;
+    background-size: cover;
     height: 600px;
-    padding: 0;
-    margin: 0;
 }
 
 .intro-block {
